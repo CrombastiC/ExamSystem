@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 内减模式 */
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+
+    background-image: url(./images/chuti.jpg);
+    object-fit: cover;
+
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.wrapper {
+    width: 1700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.box input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.box input[type="reset"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.box1 input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.box1 input[type="reset"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.box input[type="text"] {
+    width: 100px;
+    height: 30px;
+}
+
+.box1 input[type="text"] {
+    width: 100px;
+    height: 30px;
+}
+.box {
+    font-family: 宋体;
+    font-size: 20px;
+}
+
+.box1 {
+    font-family: 宋体;
+    font-size: 20px;
+}
+img{
+        width:1900px;
+        height:750px;}
+        
+.title{
+	color: #fff;
+	background: #1a4539;
+	
+}

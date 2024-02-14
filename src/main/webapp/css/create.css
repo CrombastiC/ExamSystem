@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 内减模式 */
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+
+    background-image: url(./images/chuti.jpg);
+    object-fit: cover;
+
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.wrapper {
+    width: 1700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.box input[type="reset"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.box1 button[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.box1 input[type="reset"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.top {
+    width: 755px;
+    height: 50px;
+    background-color: #FE6219;
+    color: white;
+    /* 设置字体大小 */
+    font-size: 20px;
+    /* 设置字间距 */
+    letter-spacing: 3px;
+    /* 设置行高与盒子高度一致，实现垂直居中 */
+    line-height: 50px;
+    /* 设置水平居中 */
+    text-align: center;
+}
+
+.top1 {
+    width: 745px;
+    height: 50px;
+    background-color: #FE6219;
+    color: white;
+    /* 设置字体大小 */
+    font-size: 20px;
+    /* 设置字间距 */
+    letter-spacing: 3px;
+    /* 设置行高与盒子高度一致，实现垂直居中 */
+    line-height: 50px;
+    /* 设置水平居中 */
+    text-align: center;
+}
+
+table {
+    /* 表格的宽度与top一样 */
+    width: 755px;
+
+    /* 设置表格边框 */
+    border: 1px solid white;
+
+}
+
+.th {
+    border-collapse: collapse;
+}
+
+
+
+.box input::placeholder {
+    font-size: 15px;
+}
+
+.box1 input::placeholder {
+    font-size: 15px;
+}
+
+.box input[type="text"] {
+    width: 500px;
+    height: 30px;
+}
+
+.box1 input[type="text"] {
+    width: 500px;
+    height: 30px;
+}
+
+.box {
+    font-family: 宋体;
+    font-size: 20px;
+}
+
+.box1 {
+    font-family: 宋体;
+    font-size: 20px;
+}
